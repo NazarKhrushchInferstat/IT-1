@@ -1,5 +1,6 @@
 header, footer {
 background-color: orange;
+background: url('http://pattern4site.ru/images/fabric/_rebig/12-tekstura-tkani-iz-lna.jpg') no-repeat center center / cover ;
     padding: 15px;
 }
 header {
@@ -10,7 +11,7 @@ footer {
 }
 header button, footer button { 
     color: white;
-background-color: orangered;
+background-color: rgb(224, 145, 116);
     padding: 15px;
 }
 
