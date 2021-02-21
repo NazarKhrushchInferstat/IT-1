@@ -1,16 +1,16 @@
 header, footer {
-    background-color: aliceblue;
+background-color: orange;
     padding: 15px;
 }
 header {
-    text-align: right;
+text-align: center;
 }
 footer {
-    text-align: left;
+    text-align: center;
 }
 header button, footer button { 
     color: white;
-    background-color: cornflowerblue;
+background-color: orangered;
     padding: 15px;
 }
 
@@ -19,19 +19,21 @@ header button, footer button {
     border-style: solid;
     border-color: cornflowerblue;
     margin: 20px;
-    padding: 15px;
+    padding: 10px;
 }
 .section {
-    margin: 10px;
-    background-color: beige;
+    margin: 5px;
+background-color: rgb(236, 220, 208);
+background: url('https://assets-eu-01.kc-usercontent.com/bcd02f72-b50c-0179-8b4b-5e44f5340bd4/7a0b8947-d971-444f-9287-e11fd0d2c421/autumn-poems-header-min.jpg') no-repeat center center / cover ;
+color: white;
 }
 .content button{
-    background-color: brown;
-    color: white;
+ background-color: chocolate;
+color: white;
     padding: 5px;
 }
 .content > button {
-    background-color: white;
-    color: blue;
+background-color: coral;
+  color: beige;
 }
 
