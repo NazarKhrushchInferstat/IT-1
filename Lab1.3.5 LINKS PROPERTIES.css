@@ -1,0 +1,86 @@
+header, footer {
+    background-color: orange;
+ width: auto;
+ height: 60px;
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 5px;
+text-align: right;
+ padding-top: 12px;
+ border: solid 5px rgb(228, 218, 79);
+    }
+    header {
+    text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    header button, footer button { 
+        color: white;
+    background-color: rgb(224, 145, 116);
+        padding: 15px;
+    }
+    
+    .content {
+        outline-style: double;
+        border-width: 1px;
+        border-style: solid;
+        border-color: cornflowerblue;
+        margin: 20px;
+        padding: 10px;
+       
+    }
+    .section {
+        margin: 20px;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: inherit;
+    font-variant: normal;
+    background-color: rgb(236, 220, 208);
+    background: url('world-map.png') no-repeat center center / cover ;
+    color: black;
+    }
+    .content button{
+     background-color: chocolate;
+    color: white;
+        padding: 5px;
+    }
+    .content > button {
+    background-color: coral;
+      color: beige;
+    }
+    #head {
+text-align: center;
+background-color: chocolate;
+letter-spacing: 5px;
+color: rgb(58, 42, 31);
+font-style: italic;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: initial;
+height: inherit;
+}
+
+a link {
+color: rgb(108, 108, 236);
+}
+ 
+li {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+a:visited {
+color: blueviolet;
+}
+a:hover {
+color: chartreuse;
+}
+a:active {
+color: orange;
+}
+
+li {
+list-style-type: square;
+}
